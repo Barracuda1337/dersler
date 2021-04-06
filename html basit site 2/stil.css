@@ -1,0 +1,102 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+	background:url(arkaplan.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+    font-family: sans-serif;
+}
+ 
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+ 
+#baslik{
+	text-align: center;
+	font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+ 
+#menu{
+	
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#menu li{
+	font: bold 12px/18px tahoma;
+	border-left: 1px solid #FFF;
+	display: inline-block;
+	margin-right: -1px;
+	position: relative;
+	padding: 10px 15px;
+	background: #003964;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	color: #fff;
+    
+}
+ #menu li:hover{
+     background: #42adff;
+     color: #003964;
+ 
+  }  
+
+#menu li a{
+	color: white;
+	text-decoration: none;
+	margin: 25px;
+	padding: 10px 20px;
+}
+ 
+#menu a:hover{
+    border-radius: 15px;
+}
+ 
+.orta{
+	text-align:center;
+	color: #bbb;
+    margin-top: 20px;
+	margin-bottom:20px;
+    background: #333;
+	 opacity:0.9;
+    filter:alpha(opacity=70);
+ 
+}
+ 
+.orta-sol{
+    float: left;
+    width: 450px;
+}
+ 
+ 
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #bbb;
+}
+ 
+.alt{
+    background: #555;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.alt a{
+     color: #fff;
+}
+ 
+.bitis{
+    clear: both;
+}
+ 
